@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 25rem;
     margin: 100px auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -33,16 +33,16 @@ body {
 
 .description {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 0.9375rem;
     max-width: 80%;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 30px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 28.125rem) {
     .container {
-        margin: 60px 30px;
+        margin: 100px 25px;
     }
     .header {
         font-size: 0.6em;
